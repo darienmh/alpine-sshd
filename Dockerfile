@@ -1,6 +1,7 @@
 FROM alpine:edge
+
 MAINTAINER Juan Darien Macías Hernández <darienmh@gmail.com>
-# Daniel Guerra <daniel.guerra69@gmail.com>
+# Thanks to Daniel Guerra <daniel.guerra69@gmail.com>
 
 # add openssh and clean
 RUN \
