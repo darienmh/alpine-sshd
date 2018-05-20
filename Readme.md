@@ -1,4 +1,4 @@
-# Alpine ssh server
+# SSH Server with Alpine base
 
 ## Instructions
 
