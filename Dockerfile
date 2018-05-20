@@ -8,7 +8,8 @@ RUN \
   apk add --update openssh && \
   rm  -rf /tmp/* /var/cache/apk/* && \
   #make sure we get fresh keys
-  rm -rf /etc/ssh/ssh_host_rsa_key /etc/ssh/ssh_host_dsa_key
+  rm -rf /etc/ssh/ssh_host_rsa_key /etc/ssh/ssh_host_dsa_key && \
+  passwd -d root root
   
 # add entrypoint script
 ADD docker-entrypoint.sh /usr/local/bin
